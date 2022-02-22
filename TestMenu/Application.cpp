@@ -16,7 +16,7 @@ Application::Application() :
 {}
 
 void Application::initialize() {
-  this->appMenu.initialize(appMenuItems, sizeof(appMenuItems) / sizeof(appMenuItems[0]))
+  this->appMenu.initialize(appMenuItems, sizeof(appMenuItems) / sizeof(appMenuItems[0]));
 }
 
 void Application::run() {
